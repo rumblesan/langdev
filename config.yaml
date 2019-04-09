@@ -1,0 +1,35 @@
+baseURL: https://langdev.rumblesan.com/
+languageCode: en-gb
+defaultContentLanguage: en
+title: Live Language Dev
+theme: cupper-hugo-theme
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+params:
+  description: A collection of writings about language development for live-coding environments.
+  homeMetaContent: A collection of writings about language development for live-coding environments.
+  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  katex: true
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Writing
+      url: /writing/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: Rumblesan
+      url: https://rumblesan.com
+      weight: 4
+    - name: RSS
+      url: /index.xml
+      weight: 5
