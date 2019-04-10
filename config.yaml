@@ -26,7 +26,7 @@ menu:
     - name: Tags
       url: /tags/
       weight: 3
-    - name: Rumblesan
+    - name: Rumble-San
       url: https://rumblesan.com
       weight: 4
     - name: RSS
